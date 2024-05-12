@@ -1,0 +1,2573 @@
+body{
+    background-color: #7700D1;
+    padding: 0 0;
+    margin: 0 0;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-image: url("../img/ilustr.png");
+    background-image: url(../img/ilust.svg);
+    
+
+}
+header{
+    color: white;   
+    max-width: 1200px;
+    margin: auto;  
+}
+main{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Center{
+    max-width: auto ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.flex2{
+    display: flex;
+}
+.header-first-info{
+    width: 330px;
+    justify-content: space-between;
+    margin-right: 145px;
+    font-family: "GolosText-Medium";
+    font-size: 15px;
+    line-height: 30px;
+}
+
+
+.Clos{
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 248px;
+    margin-top: 40px;
+    display: none;
+    background-color: #7700D1;
+    border: none;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 122px;
+    border-bottom-left-radius: 43px;
+    border-bottom-right-radius: 43px;
+    background-color: #ffffff;
+    margin-right: 100px;
+}
+
+.Contact{
+    flex-direction: column;
+    margin-right: 26px;
+    font-size: 16px;
+}
+.PhonHead{
+    margin: 0%;
+    margin-bottom: 2px; 
+    font-size: 24px;
+    width: 195px;
+    height: 29px;
+    font-size: 24px;
+    font-family: "GolosText-Medium";
+}
+.Adres{
+    width: 225px;
+    height: 19px;
+    padding: 0px;
+    margin: 0px;
+    text-align: start;
+    font-family: "GolosText-Regular";
+    font-size: 16px;
+}
+.Adres span{
+    font-family: "GolosText-SemiBold";
+    font-weight: bold;
+}
+.icon-what{
+    display: flex;
+    width: 60px;
+    height: 40px;
+    background-color: #48DB45;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+}   
+.icon-teleg{
+    display: flex;
+    width: 60px;
+    height: 40px;
+    background-color: #02ADFF;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon-what:hover{
+    background-color: #21C31D;
+}
+.icon-teleg:hover{
+    background-color: #0096DE;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.error{
+text-align: center;
+padding-top: 110px;
+
+}
+.error p{
+color: white;
+}
+.error h1{
+    color: white;
+}
+
+
+
+.btn{
+padding-top: 52px;
+text-align: center;
+
+}
+
+.btn button{
+    background-color: #FFE149;
+    width: 284px;
+    height: 86px;
+    border-radius: 43px;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #3E3300;
+    text-transform: uppercase;
+    border-style: none;
+
+}
+button:hover{
+    background-color: #FFD500;
+}
+
+
+.headtexticon{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+@font-face {
+    font-family: "GolosText-Bold";
+    src: url(../font/GolosText-Bold.woff) format("woff");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "GolosText-Bold";
+    src: url(../font/GolosText-Bold.woff2) format("woff2");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "GolosText-Medium";
+    src: url(../font/GolosText-Medium.woff) format("woff");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "GolosText-Medium";
+    src: url(../font/GolosText-Medium.woff2) format("woff2");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "GolosText-Regular";
+    src: url(../font/GolosText-Regular.woff) format("woff");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "GolosText-Medium";
+    src: url(../font/GolosText-Medium.woff2) format("woff2");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "GolosText-SemiBold";
+    src: url(../font/GolosText-SemiBold.woff) format("woff");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "GolosText-SemiBold";
+    src: url(../font/GolosText-SemiBold.woff2) format("woff2");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "MuseoSansCyrl500";
+    src: url(../font/MuseoSansCyrl500.woff) format("woff");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "MuseoSansCyrl500";
+    src: url(../font/MuseoSansCyrl500.woff2) format("woff2");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "RussoOne-Regular";
+    src: url(../font/RussoOne-Regular.woff) format("woff");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "RussoOne-Regular";
+    src: url(../font/RussoOne-Regular.woff2) format("woff2");
+    font-weight: 500;
+}
+body{
+    background-color: #7700D1;
+    padding: 0 0;
+    margin: 0 0;
+}
+header{
+    color: white;   
+    max-width: 1200px;
+    margin: auto;  
+}
+main{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Center{
+    max-width: auto ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.flex2{
+    display: flex;
+}
+.header-first-info{
+    width: 330px;
+    justify-content: space-between;
+    margin-right: 145px;
+    font-family: "GolosText-Medium";
+    font-size: 15px;
+    line-height: 30px;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 122px;
+    border-bottom-left-radius: 43px;
+    border-bottom-right-radius: 43px;
+    background-color: #ffffff;
+    margin-right: 100px;
+}
+
+.Contact{
+    flex-direction: column;
+    margin-right: 26px;
+    font-size: 16px;
+}
+.PhonHead{
+    margin: 0%;
+    margin-bottom: 2px; 
+    font-size: 24px;
+    width: 195px;
+    height: 29px;
+    font-size: 24px;
+    font-family: "GolosText-Medium";
+}
+.Adres{
+    width: 225px;
+    height: 19px;
+    padding: 0px;
+    margin: 0px;
+    text-align: start;
+    font-family: "GolosText-Regular";
+    font-size: 16px;
+}
+.Adres span{
+    font-family: "GolosText-SemiBold";
+    font-weight: bold;
+}
+.icon-what{
+    display: flex;
+    width: 60px;
+    height: 40px;
+    background-color: #48DB45;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+}   
+.icon-teleg{
+    display: flex;
+    width: 60px;
+    height: 40px;
+    background-color: #02ADFF;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.header-first-info a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.header-first-info a:hover{
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.icon-what:hover{
+    background-color: #21C31D;
+}
+.icon-teleg:hover{
+    background-color: #0096DE;
+}
+/* 1 Main Section */
+
+section{
+    text-align: center;
+    color: white;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.back{
+    background-image: url(../img/Ilustr.svg);
+    margin-top: 66px;
+    height: 892.68px;
+    width: 100%;   
+    background-size: unset;
+    left: 0%;
+    top: 0%;
+}
+.Title{
+    display: flex;
+    flex-direction: column;
+    max-width: 1187px;
+}
+.Title-First_list{
+    font-size: 72px;
+    font-family: "MuseoSansCyrl500";
+    padding: 0%;
+    margin: 0%;
+    margin-top: 66px;
+}
+.Bottom-Title-text{
+    font-size: 42px;
+    font-family: "MuseoSansCyrl500";
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 25px;
+}
+.sectionFirstInfo{
+    font-size: 20px;
+    max-width: 759px;
+    margin-bottom: 44px;
+    font-family: "GolosText-Regular";
+}
+.butFirstList{
+    border-radius: 43px;
+    border-style: none;
+}
+.butone{
+    background-color: #ffffff;
+    max-width: 284px;
+    padding: 28px 82px 28px 33px;
+    font-size: 15px;
+    font-family: "GolosText-Regular";
+    line-height: 30px;
+}
+.buttwo{
+    font-size: 14px;
+    font-family: "GolosText-SemiBold";
+    background-color: rgba(255, 225, 73, 1);
+    padding: 27.68px 62.35px 28.32px 63.26px;
+    width: 284px;
+    margin-left: 9px;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 2%;
+}
+.buttwo:hover{
+    background-color: #FFD500;
+}
+
+.PriceElipc{    
+    position: absolute;
+    margin-left: 471px;
+    margin-top: -160px;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-22.24deg);
+}
+.ElipsText{
+    font-size: 14px;
+    font-family: "GolosText-Regular";
+    width: 136px;
+    height: 34px;
+    margin-top: 3px;
+    line-height: 15px;
+}
+.ElipsText span{
+    font-family: "GolosText-SemiBold";
+    font-weight: bold;
+}
+.elipc{
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 128px;
+    height: 128px;
+    color: #4C0085;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.elipc h1,p{
+    margin: 0%;
+    padding: 0%;
+}
+.elipc h1{
+    width: 73px;
+    height: 23px;
+    font-size: 36px;
+    font-family: "GolosText-Regular";
+    line-height: 56px;
+}
+.elipc p{
+    width: 71px;
+    height: 46px;
+    font-size:18px;
+    font-family: "GolosText-Regular";
+    line-height: 56px;
+}
+.span{
+    font-weight: bold;
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 11px;
+    font-size: 12px;
+    font-family: "GolosText-Regular";
+    line-height: 30px;
+}
+.check input{
+    border-radius: 100%;
+}
+.check span{
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+
+}
+/* Section 2 */
+
+.back2{
+    background-image: url(../img/illustrat2.svg);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    min-height: 100%;
+    min-width: 100%;   
+    background-position-y: 150px;
+}
+.sectionTextTitle2{
+    font-size: 46px;
+    font-family: "MuseoSansCyrl500";
+    font-family: 500;
+    margin-bottom: 25px;
+}
+.sectionTextText2{
+    font-size: 20px;
+    margin-bottom: 63px;
+    font-family: "GolosText-Regular";
+    line-height: 30px;
+}
+.Tablediv{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+.table{
+border-spacing: 0px;
+font-size: 20px;
+font-family: "GolosText-SemiBold";
+line-height: 30px;
+}
+
+tbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+tr{
+    display: flex;
+}
+.TableWhite{    
+
+    background-color: #ffffff;
+    color: #7700D1;
+    border: 1px #ffffff solid;
+}
+.left{
+    width: 220px;
+    height: 76px;
+    display: flex;
+    padding-left: 41px;
+    align-items: center;
+}
+.right{
+    width: 128px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff;
+}
+/* Section 3 */
+.back3{
+    background-image: url(../img/back3.svg);
+    background-repeat: no-repeat;   
+    min-height: 100%;
+    min-width: 100%;   
+    height: 100%;
+    background-position-y: 295px;
+}
+.sect3{
+    width: 1200px;
+    margin: auto;
+}
+.BOXSES{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    max-width: 570px;
+    max-height: 378px;
+    background-color: #ffffff;
+    color: #4C0085;
+    border-radius: 38px;
+    display: flex;
+    flex-direction: column;
+}
+.con1{
+    width: 436px;
+    height: 285px;
+    padding: 50px 83px 43px 51px;
+    margin: 0px 30px 30px 0px;
+}   
+.con2{
+    width: 473px;
+    height: 284px;
+    padding: 51px 46px 43px 51px;
+}
+.con3{
+    width: 428px;
+    height: 228px;
+    padding: 50px 90px 46px 51px;
+    margin-right: 30px;
+}
+.con4{
+    width: 473px;
+    height: 205px;
+    padding: 51px 46px 69px 51px;
+}
+.back-cart{
+    padding-top: 54px;
+    text-decoration:underline dotted;
+    text-underline-position: under;
+    text-underline-offset: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "GolosText-SemiBold";
+}
+.box-text{
+    display: flex;
+    align-items: center;
+    height: 58px;
+}
+.crug{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 57px;
+    max-height: 57px;
+    border-radius: 100%;
+    background-color: #7700D1;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "GolosText-SemiBold";
+    font-weight: bold;
+}
+.text2box111{
+    margin: 0px;
+    font-size: 22px;
+    font-family: "GolosText-SemiBold";
+    line-height: 28px;
+    text-align: start;
+    margin-left: 29px;
+    max-width: 340px;
+    max-height: 56px;
+    width: 100%;
+    height: 100%;
+    color: #4C0085;
+    line-height: 28px;
+}
+.text2box2{
+    margin: 0px;
+    font-size: 22px;
+    font-family: "GolosText-SemiBold";
+    line-height: 28px;
+    color: #4C0085;
+    width: 318px;
+    height: 56px;
+    text-align: start;
+    flex-wrap: wrap;
+    margin-left: 28px;
+}
+.text2box3{
+    text-align: start;
+    margin: 0px;
+    margin-left: 29px;
+    font-size: 22px;
+    font-family: "GolosText-SemiBold";
+    line-height: 28px;
+    color: #4C0085;
+    width: 340px;
+    height: 56px;
+}
+.text2box4{
+    text-align: start;
+    margin: 0px;
+    margin-left: 28px;
+    font-size: 22px;
+    font-family: "GolosText-SemiBold";
+    line-height: 28px;
+    color: #4C0085;
+    width: 272px;
+    height: 56px;
+}
+.text3box{
+    max-width: 436px;
+    max-height: 196px;
+    width: 100%;
+    text-align: start;
+    font-size: 18px;
+    font-family: "GolosText-Regular";
+    line-height: 28px;
+    color: #4C0085;
+    line-height: 28px;
+    margin-bottom: 28px;
+    margin-top: 32px;
+}
+.text3box21{
+    text-align: start;
+    font-size: 18px;
+    color: #4C0085;
+    line-height: 28px;
+    margin-top: 31px;
+    font-family: "GolosText-Regular";
+    line-height: 28px;
+}
+.text3box22{
+    text-align: start;
+    font-size: 18px;
+    color: #4C0085;
+    line-height: 28px;
+    padding: 28px 0px;
+    font-family: "GolosText-Regular";
+    line-height: 28px;
+}
+.text3box31{
+    text-align: start;
+    font-size: 18px;
+    color: #4C0085;
+    line-height: 28px;
+    padding-bottom: 28px;
+    margin-top: 32px;
+    font-family: "GolosText-Regular";
+    line-height: 28px;
+}
+.text3box31 span{
+    font-family: "GolosText-SemiBold";
+    font-weight: bold;
+}
+.text3box2{
+    font-family: "GolosText-Regular";
+    line-height: 28px;
+    font-size: 18px;
+    text-align: start;
+}
+.text3box2 span{
+    font-family: "GolosText-SemiBold";
+    font-weight: bold;
+}
+.text3box3{
+    text-align: start;
+    font-size: 18px;
+    color: #4C0085;
+    line-height: 28px;
+    font-family: "GolosText-Regular";
+    line-height: 28px;
+}
+.text3box4{
+    text-align: start;
+    font-size: 16px;
+    color: #4C0085;
+    line-height: 28px;
+    font-family: "GolosText-SemiBold";
+}
+.text3box41{
+    text-align: start;
+    font-size: 18px;
+    color: #4C0085;
+    line-height: 28px;
+    padding-bottom: 28px;
+    margin-top: 32px;
+    font-family: "GolosText-Regular";
+}
+.back3 span{    
+    font-weight: bold;
+}
+.linkes{
+    color: #7700D1;
+    text-decoration:underline dotted #7700D1;
+    text-underline-position: under;
+    text-underline-offset: 4px;
+}
+.boxsection4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #4C0085;
+    border-radius: 38px;
+    width: 1514px;
+    height: 622px;
+    margin: auto;
+    margin-bottom: 108px;
+}
+.boxsection4 img{
+    size: 22px;
+    height: 22px;
+    width: 22px;
+}
+.textboxsection4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 1191px;
+    height: 399px;
+    padding: 106px 158px 117px 165px;
+}
+.titlesection4{
+    font-size: 46px;
+    font-family: "MuseoSansCyrl500";
+    font-weight: 500;
+    width: 460px;
+    height: 55px;
+    margin: 0px;
+}
+.moretext{
+    margin-top: 49px;
+}
+.Text1section4{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 136px;
+    justify-content: space-between;
+    margin-bottom: 52px;
+}
+.text1box{
+    max-width: 440px;
+    height: 84px;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 71px;
+    line-height: 28px;
+}
+.text2box{
+    max-width: 452px;
+    height: 84px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+}
+.textboxtext{
+    width: 440px;
+    height: 84px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 28px;
+    font-family: "GolosText-Regular";
+}
+.textboxtext span{
+    font-family: "GolosText-SemiBold";
+    font-weight: bold;
+}
+.text2boxtext{
+    width: 452px;
+    height: 84px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 28px;
+    font-family: "GolosText-Regular";  
+}
+.text2boxtext span{
+    font-family: "GolosText-SemiBold";
+    font-weight: bold;
+}
+.Text2section4{
+    display: flex;
+    width: 1191px;
+    height: 107px;
+    margin-top: 52px;
+}
+.text1box2{
+    display: flex;
+    flex-direction: column;
+    max-width: 382px;
+    width: 100%;
+    height: 107px;
+    align-items: center;
+    font-size: 18px;
+    font-family: "GolosText-Regular"; 
+    line-height: 24px;
+}
+.text1box2 span{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: "GolosText-SemiBold"; 
+}
+.text1box3{
+    display: flex;
+    flex-direction: column;
+    max-width: 382px; 
+    width: 100%;
+    height: 107px;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 16px;
+    margin-right: 8px;
+    font-family: "GolosText-Regular"; 
+    line-height: 24px;
+}
+.text1box3 span{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: "GolosText-SemiBold"; 
+}
+.text1box4{
+    display: flex;
+    flex-direction: column;
+    max-width: 382px;
+    width: 100%;
+    height: 107px;
+    align-items: center;
+    font-size: 18px;
+    font-family: "GolosText-Regular"; 
+    line-height: 24px;
+}
+.text1box4 span{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: "GolosText-SemiBold"; 
+}
+.Text1section4 span{
+    font-weight: bold;
+}
+.back4{
+    background-image: url(../img/back4.svg);
+    background-repeat: no-repeat;       
+    min-height: 100%;
+    min-width: 100%;   
+    height: 100%;
+    background-position-y: 145px; 
+}
+.boxsection5{
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+    margin: auto;
+    height: 600px;
+    align-items: center;
+    margin-bottom: 97px;
+}
+.sect5Title{
+    font-size: 46px;
+    width: 913px;
+    height: 110px;
+    margin-bottom: 26px;
+    font-family: "MuseoSansCyrl500";
+    font-weight: 500;
+}
+.sect5text{
+    font-size: 20px;
+    font-family: "GolosText-Regular";
+    line-height: 30px;
+    width: 946px;
+    height: 109px;
+}
+.sect5text span{
+    font-family: "GolosText-SemiBold";
+    font-weight: bold;
+}
+.container_boxsect5{
+    display: flex;
+    margin-top: 45px;
+}
+.box5sec{
+    width: 370px;
+    height: 282px;
+    border-radius: 38px;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box5sec2{
+    width: 370px;
+    height: 282px;
+    border-radius: 38px;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px;
+}
+.box5sec3{
+    width: 370px;
+    height: 282px;
+    border-radius: 38px;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box5secbold{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    width: 315px;
+    height: 24px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    font-family: "GolosText-SemiBold";
+}
+.box5sectext1{
+    font-size: 16px;
+    line-height: 28px;
+    height: 84px;
+    width: 310px;
+    font-family: "GolosText-Regular";
+}
+.box5sectext2{
+    font-size: 16px;
+    line-height: 28px;
+    height: 84px;
+    width: 315px;
+    font-family: "GolosText-Regular";
+}
+.box5sectext3{
+    font-size: 16px;
+    line-height: 28px;
+    height: 84px;
+    width: 338px;
+    font-family: "GolosText-Regular";
+}
+.box5secbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 315px;
+    height: 186px;
+    padding: 53px 28px 43px 27px;
+}
+.box5secbox2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 315px;
+    height: 186px;
+    padding: 51px 28px 43px 27px;
+}
+.box5secbox3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 338px;
+    height: 186px;
+    padding: 54px 16px 43px 16px;
+}
+.back5{
+    background-image: url(../img/back5.svg);
+    background-repeat: no-repeat;       
+    min-height: 100%;
+    min-width: 100%;   
+    height: 100%;
+    background-position-y: 250px;
+    background-position-x: 115px; 
+}
+.boxsection6{
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+    margin: auto;
+    height: 1220px;
+    align-items: center;
+}
+.Title6sec{
+    font-size: 46px;
+    font-family: "MuseoSansCyrl500";
+    font-weight: 500px;
+    width: 900px;
+    height: 110px;
+    text-align: center;
+    margin: 0px 0px 27px 0px;
+}
+.text6sec{
+    font-size: 20px;
+    font-family: "GolosText-Regular";
+    line-height: 30px;
+    width: 690px;
+}
+.text6sec span{
+    font-family: "GolosText-SemiBold";
+    font-weight: bold;
+}
+.crug1sec{
+    width: 292px;
+    height: 292px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100%;
+    color: #4C0085;
+    text-align: center;
+}
+.textcrug{
+    width: 247px;
+    height: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 92.5px 23px 92.5px 22px;
+}
+.crugtitle{
+    font-size: 40px;
+    width: 102px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 27px 0px;
+    font-family: "GolosText-SemiBold";
+    line-height: 24px;
+}
+.crugtitle4{
+    font-size: 40px;
+    font-family: "GolosText-SemiBold";
+    line-height: 24px;
+}
+.crugtext{
+    font-size: 18px;
+    font-family: "GolosText-Regular";
+    line-height: 28px;
+    width: 247px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photosect6{
+    border-radius: 100%;
+    width: 370px;
+    height: 370px;
+}
+.crug2sec{
+    width: 292px;
+    height: 292px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100%;
+    color: #4C0085;
+    text-align: center;
+}
+.textcrug2{
+    width: 247px;
+    height: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 92.5px 21px 92.5px 24px;
+}
+.crug3sec{
+    width: 292px;
+    height: 292px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100%;
+    color: #4C0085;
+    text-align: center;
+    margin-right: 167px;
+}
+.textcrug3{
+    width: 247px;
+    height: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 92.5px 22px 92.5px 23px;
+}
+.crug4sec{
+    width: 538px;
+    height: 538px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100%;
+    color: #4C0085;
+    text-align: center;
+    margin-top: 41px;
+}
+.textcrug4{
+    width: 247px;
+    height: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 110px 55px 103px 55px;
+}
+
+.crugtitle4{
+    font-size: 40px;
+    width: 366px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 25px 0px;
+}
+.crugtext4{
+    font-size: 18px;
+    width: 428px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+    font-family: "GolosText-Regular";
+    line-height: 28px;
+}
+.textcrug4 img{
+    width: 302px;
+    height: 145px;
+    margin-bottom: 20px;
+}
+.fontextsec6{
+    width: 175px;
+    height: 24px;
+    color: #4C0085;
+    text-decoration:underline dotted #4C0085;
+    text-underline-position: under;
+    text-underline-offset: 5px;
+    font-family: "GolosText-SemiBold";
+    line-height: 24px;
+    font-size: 16px;
+}
+.morcrug{
+    display: flex;
+    flex-direction: row;
+    margin-top: 42px;
+    width: 1170px;
+    justify-content: space-between;
+}
+.morcrug2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 109px;
+}
+.crugimgsect6{
+    position: absolute;
+    margin-top: 268px;
+}
+footer{
+    background-color: #ffffff;
+}
+.fot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1200px;
+    height: 172px;
+    margin: auto;
+    color: #4C0085;
+}
+.box1f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 137.25px;    
+    height: 36px;
+}
+.box1ftitle{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "RussoOne-Regular";
+    letter-spacing: 3%;
+    margin-left: 12.25px;
+}
+.box2f{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 256px;
+    height: 47px;
+    margin-left: 48.75px;
+    color: rgba(76, 0, 133, 0.45);
+    margin-right: 60px;
+    font-family: "GolosText-Regular";
+    font-size: 15px;
+    line-height: 24px;
+
+}
+.box3f{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 237px;
+    height: 67px;
+    margin-right: 57px;
+    font-family: "GolosText-Regular";
+    font-size: 15px;
+    line-height: 24px;
+}
+.box3f2{
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 237px;
+    height: 67px;
+    margin-right: 57px;
+}
+.fotline{
+    text-decoration: underline dotted 2px;
+    text-underline-position: under;
+    text-underline-offset: 5px;
+}
+.fotline2{
+    text-decoration: underline dotted 2px;
+    text-underline-position: under;
+    text-underline-offset: 5px;
+}
+.box4f{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 225  px;
+    height: 50px;
+    font-size: 16px;
+    margin-right: 25px;
+    font-family: "GolosText-Regular";
+}
+.box4ftitile{
+    font-size: 24px;
+    font-family: "GolosText-Medium";
+}
+.box4f span{
+    font-weight: bold;
+    font-family: "GolosText-SemiBold";
+}
+.burger{
+    display: none;
+    border: none;
+    background-color: #ffffff;
+}
+.headtexticon{
+    display: flex;
+    flex-direction: row;
+}
+.main-but{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 577px;
+}
+
+.Scvad{
+    display: none;
+}
+.Car{
+    display: none;
+}
+.sect3h1{
+    font-size: 46px;
+    font-family: "MuseoSansCyrl500";
+    font-family: 500;
+    padding-bottom: 27px;
+}
+.sect3p{
+    font-size: 20px;
+    margin-bottom: 63px;
+    font-family: "GolosText-Regular";
+    line-height: 30px;
+}
+.bottomimgmedia{
+    display: none;
+}
+.crugimgsect61{
+    display: none;
+}
+.box4f-flex{
+    display: flex;
+    flex-direction: row;
+}
+.Clos{
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 248px;
+    margin-top: 40px;
+    display: none;
+    background-color: #7700D1;
+    border: none;
+}
+.show{
+    max-height: auto;
+    max-width: 150px;
+}
+.show p{
+    width: auto;
+    margin: 30px;
+    font-size: 24px;
+    text-align: start;
+}
+
+
+/* misha sect7 */
+.back7{
+    background-image: url(../img/Group\ 58.png);
+    background-repeat: no-repeat;   
+    min-height: 100%;
+    min-width: 100%;   
+    height: 1104px;
+    background-position-y: 625px;
+    background-position-x: 730px
+}
+.pay2{
+    margin-top: -110px;
+    position: absolute;
+    margin-left: -735px;
+    z-index: -1;
+}
+.txt-rab{
+    padding-top: 107px;
+    text-align: center;
+}
+.txt-rab h1{
+    width: 1046px;
+    height: 55px;
+    font-size: 46px;
+    font-family: "MuseoSansCyrl500";
+    color: white;
+    margin: auto;
+    margin-bottom: 28px;
+}
+
+.txt-rab p{
+    color: white;
+    width: 1098px;
+    height: 60px;
+    font-size: 20px;
+    margin: auto;
+    font-family: "GolosText-Regular";
+}
+.txt-rab span{
+    font-family: "GolosText-SemiBold";
+    font-weight: bold;
+}
+.ref{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.pole{
+padding: 10px;
+}
+
+.pole input{
+    font-family: "GolosText-Regular";
+    font-size: 15px;
+    line-height: 30px;
+}
+.pole input{
+    height: 86px;
+    width: 320px;
+    border-radius: 43px;
+    font-size: 15px;
+    padding-left: 37px;
+    border-style: none;
+
+}
+
+.pole ::placeholder{
+    color: #a977cf;
+    font-family: "Golos Text", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        
+}
+
+.btn{
+    
+    text-align: center;
+    
+    }
+    
+    .btn button{
+        background-color: #FFE149;
+        width: 320px;
+        height: 86px;
+        border-radius: 43px;
+        font-family: "Golos Text", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        color: #3E3300;
+        text-transform: uppercase;
+        border-style: none;
+    
+    }
+    button:hover{
+        background-color: #FFD500;
+    }
+
+    .popup__bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0,0,0,0.5);
+        opacity: 0; 
+        pointer-events: none; 
+        transition: 0.5s all;
+        
+    }
+    
+    .popup__bg.active { 
+        opacity: 1; 
+        pointer-events: all; 
+        transition: 0.5s all;
+    }
+    
+    .popup {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        background: #fff;
+        height: 550px;
+        width: 500px;
+        padding: 25px;
+        transition: 0.5s all;
+        border-radius: 38px;
+        text-align: center;
+        font-size: 14px;
+        font-family: "GolosText-SemiBold";
+        letter-spacing: 2%;
+        text-transform: uppercase;
+    }
+    
+    .popup.active { 
+        transform: translate(-50%, -50%) scale(1); 
+        transition: 0.5s all;
+        
+    }
+    /* Конец важной части */
+    /* Далее код для стилизации формы */
+    .close-popup {
+        position: absolute;
+      
+        right: 38px;
+        cursor: pointer;
+        
+    }
+    
+    .popup label {
+        width: 100%;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .popup .label__text {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #cfd0d3;
+        margin-bottom: 5px;
+    }
+    
+    .popup input {
+        height: 80px;
+        font-size: 18px;
+        border-radius: 43px;
+        border: none;
+        outline: none;
+        background-color: #F8F0FF;
+        color: #4C0085;
+        width:  400px;
+       
+        
+    }
+    .popup ::placeholder{
+        color: #a977cf;
+        padding-left: 38px;
+    }
+    
+    .popup input:focus {
+        border-bottom: 1px solid #2982ff;
+    }
+    
+    .popup input:focus + .label__text {
+        color: #2982ff;
+    }
+    
+    .popup textarea {
+        resize: none;
+        width: 100%;
+        height: 150px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #cfd0d3;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    
+    .popup textarea:focus {
+        border-bottom: 1px solid #2982ff;
+    }
+    
+    .popup textarea:focus + .label__text {
+        color: #2982ff;
+    }
+    
+    .popup button {
+        width: 100%;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 18px;
+        border: 2px solid #2982ff;
+        background: #2982ff;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: 0.5s all;
+        border-radius: 15px;
+    }
+    
+    .popup button:hover {
+        background: #fff;
+        color:#2982ff;
+        transition: 0.5s all;
+    }
+    
+    .popup img{
+        padding-top: 28px;
+    }
+    .dadada h2{
+       color: #4C0085;
+    }
+
+
+    /* Misha 8 sect */
+    .text2rab h1{
+        width: 956px;
+        height: 97px;
+        font-size: 46px;
+        font-family: "MuseoSansCyrl500";
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    .text2rab p{
+        width: 592px;
+        height: 56px;
+        font-size: 20px;
+        font-size: "GolosText-Regular";
+        line-height: 28px;
+    }
+    .bottommore{
+        margin-bottom: 95px;
+    }
+    .back8{
+        background-image: url(../img/bottommore.svg);
+        background-repeat: no-repeat;   
+        min-height: 100%;
+        min-width: 100%;   
+        background-position-y: 200px;
+        background-position-x: 90px;
+    }
+    .fotline{
+        color: #4C0085;
+    }
+    .check span:hover{
+        color: rgba(255, 255, 255, 0.45);
+    }
+    .linkes:hover{
+        color: rgba(76, 0, 133, 0.45)
+    }
+    .back-cart:hover{
+        color: rgba(255, 255, 255, 0.45); 
+    }
+    .fontextsec6:hover{
+        color: rgba(76, 0, 133, 0.45)
+    }
+    .fotline:hover{
+        color: rgba(76, 0, 133, 0.45)
+    }
+    .pay1{
+        display: none;
+    }
+    main a span{
+        color: #ffffff;
+    }
+@media(max-width:360px){
+    /* Header */
+    .Center{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }    
+    .burger{
+        display: flex;
+        margin-left: 68px;
+    }
+    .head{
+        flex-direction: column;
+        max-width: 300px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .Logo{
+        width: 300px;
+        height: 80px;
+        margin: auto;
+        padding: auto;
+        margin-bottom: 19px;
+    }
+    .header-first-info{
+        display: none;
+    }
+    .Contact{
+        margin: 0px;
+        width: 167px;
+        height: 41px;
+        text-align: start;
+        padding-right: 9px;
+    }
+    .PhonHead{
+        font-size: 20px;
+        width: 163px;
+        height: 24px;
+        font-family: "GolosText-Medium";
+    }
+    .Adres{
+        font-size: 12px;
+        width: 170px;
+        height: 14px;
+        font-family: "GolosText-Regular";
+    }
+    .Adres span{
+        font-weight: bold;
+    }
+    .icon-what, .icon-teleg{
+        width: 60px;
+        height: 40px;
+    }
+    .headtexticon{
+        flex-direction: row;
+        width: 302px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    /* Main */
+
+    main{
+        max-width: 360px;
+        width: 360px;
+        justify-content: center;
+        align-items: center;
+    }
+    .back{
+        margin: 24px;
+        max-width: 360px;
+        background-image: none;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .text{
+        max-width: 360px;
+        justify-content: center;
+        align-items: center;
+    }
+    .Title{
+        max-width: 360px;
+
+    }
+    .Title-First_list{
+        margin: 0px;
+        width: 294px;
+        height: 115px;
+        font-size: 48px;
+        line-height: 48px;
+        font-family: "MuseoSansCyrl500";
+    }
+    .Bottom-Title-text{
+        width: 294px;
+        font-size: 24px;
+        line-height: 30px;
+        font-family: "MuseoSansCyrl500";
+        margin: 0px;
+    }
+
+    body{
+
+        background-image: none;
+    }
+    .sectionFirstInfo{
+        width: 278px;
+        height: 96px;
+        font-size: 16px;
+        line-height: 24px;
+        font-size: "GolosText-Regular";
+        margin-top: 27px;
+    }
+    .main-but{
+        width: 284px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+    .butone{
+        max-width: 220px;
+        width: 187px;
+        padding: 28px 45px 28px 50px;
+        font-family: "GolosText-Regular";
+    }
+    .buttwo{
+        padding: 28px 63.35px 28px 62.26px;
+        font-family: "GolosText-SemiBold";
+        text-transform: uppercase;
+        margin-top: 9px;
+        margin-left: 0px;
+    }
+    .check{
+        font-size: 12px;
+        width: 302px;
+        margin-top: 9px;
+        font-family: "GolosText-Regular";
+    }
+    .PriceElipc{
+        position: relative;
+        margin-left: 0;
+        margin-top: 0;
+        transform: none;
+        width: 136px;
+        font-size: 14px;
+        margin: auto;
+        margin-top: 21px;
+    }
+    .ElipsText{
+        margin-top: 9px;
+    }
+    .Scvad{
+        display: flex;
+        margin-left: 60px;
+        margin-top: 4px;
+        margin-bottom: 38px;
+    }
+    /* Section 2 */
+    .back2{
+        width: 360px;
+        margin-top: 38px;
+        background-image: none;
+        margin-bottom: 0px;
+    }
+    .Textsect2{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionTextTitle2{
+        margin-bottom: 15px;
+        font-size: 36px;
+        font-family: "MuseoSansCyrl500";
+        line-height: 40px;
+        width: 342px;
+    }
+    .sectionTextText2{
+        font-size: 20px;
+        font-family: "GolosText-Regular";
+        line-height: 30px;
+        width: 300px;
+        height: 60px;
+        margin: auto;
+        margin-bottom: 31px;
+    }
+    .left{
+        width: 92px;
+        height: auto;
+        padding-left: 18px;
+        text-align: start;
+    }
+    .right{
+        width: 53px;
+        height: 61px;
+    }
+    tr{
+        width: auto;
+        height: auto;
+    }
+    .TableWhite{
+        text-align: start;
+    }
+    .Tablediv{
+        padding-bottom: 0px;
+    }
+    .table{
+        font-size: 16px;
+        font-family: "GolosText-SemiBold";
+
+    }
+    .Car{
+        display: flex;
+        margin-top: -122px;
+        margin-bottom: 38px;
+    }
+    
+    /* Section 3*/
+    .back3{
+        width: 360px;
+        background-image: none;
+        margin: 0px;
+    }
+    .sect3{
+        width: 360px;
+    }
+    .sect3h1{
+        width: 342px;
+        height: 160px;
+        margin: auto;
+        margin-bottom: 14px;
+        font-size: 36px;
+        font-family: "MuseoSansCyrl500";
+    }
+    .sect3p{
+        width: 280px;
+        height: 30px;
+        font-size: 20px;
+        font-family: "GolosText-Regular";
+        margin: auto;
+        margin-bottom: 24px;
+    }
+    .BOXSES{
+        max-width: 295px;
+        justify-content: center;
+        margin: auto;
+    }
+    .box{
+        max-height: 600px;
+
+    }
+    .crug{
+        width: 58px;
+        height: 58px;
+
+    }
+    .box-text{
+        flex-direction: column;
+        width: 250px;
+        height: 162px;
+        font-size: 22px;
+        font-family: "GolosText-SemiBold";
+    }
+    .text2box111{
+        margin: 0px;
+        text-align: start;
+        font-size: 22px;
+        margin-top: 21px;
+    }
+    .text3box{
+        width: 249px;
+        height: 175px;
+        font-size: 18px;
+        font-family: "GolosText-Regular";
+    }
+    .con1{
+        padding: 29px 20px 10px 26px;
+        height: 569px;
+        margin: 0px 0px 20px 0px;
+    }
+    .text3box2{
+        width: 249px;
+        height: 175px;
+    }
+    .con2{
+        padding: 29px 20px 10px 26px;
+        height: 600px;
+        margin: 0px 0px 20px 0px;
+    }
+    .text3box3{
+        width: 249px;
+        height: 175px;
+    }
+    .con3{
+        padding: 29px 20px 10px 26px;
+        height: 516px;
+        margin: 0px 0px 20px 0px;
+    }
+    .text3box4{
+        width: 249px;
+        height: 175px;
+    }
+    .con4{
+        padding: 29px 20px 10px 26px;
+        height: 440px;
+        margin: 0px 0px 0px 0px;
+    }
+    .text2box2{
+        margin: 0px;
+        width: 250px;
+        height: 64px;
+        font-size: 22px;
+        font-family: "GolosText-SemiBold";
+        margin-top: 21px;
+    }
+    .text3box21{
+        width: 183px;
+        height: 83px;
+        margin-top: 22px;
+        font-family: "GolosText-Regular";
+        font-size: 18px;
+    }
+    .text3box22{
+        width: 240px;
+        height: 83px;
+        margin-top: 29px;
+        font-family: "GolosText-Regular";
+        font-size: 18px;
+    }
+    .text3box2{
+        width: 225px;
+        height: 140px;
+        margin-top: 29px;
+        text-align: start;
+        font-family: "GolosText-Regular";
+        font-size: 18px;
+    }
+    .text2box3{
+        width: 221px;
+        height: 63px;
+        margin-left: 0px;
+        padding-right: 29px;
+        text-align: start;
+        font-family: "GolosText-SemiBold";
+        margin-top: 21px;
+    }
+    .text3box31{
+        width: 210px;
+        height: 140px;
+        font-size: 18px;
+        margin-top: 28px;
+        font-family: "GolosText-Regular";
+    }
+    .text3box3{
+        width: 218px;
+        height: 84px;
+        margin-top: 29px;
+        font-size: 18px;
+        font-family: "GolosText-Regular";
+    }
+    .text3box31 span{
+        font-weight: bold;
+        font-family: "GolosText-SemiBold";
+    }
+    .text2box4{
+        width: 221px;
+        height: 84px;
+        padding-right: 29px;
+        margin-left: 0px;
+        font-family: "GolosText-SemiBold";
+        font-size: 22px;
+        margin-top: 21px;
+    }
+    .text3box41{
+        width: 248px;
+        height: 126px;
+        font-size: 18px;
+        font-family: "GolosText-Regular";
+        margin-top: 28px;
+        margin-bottom: 16px;
+    }
+    .text3box4{
+        width: 120px;
+        height: 28px;
+        font-size: 16px;
+        font-family: "GolosText-SemiBold";
+    }
+    .back-cart{
+        margin-top: 22px;
+        padding-top: 0px;
+        height: 28px;
+        font-family: "GolosText-SemiBold";
+    }
+    .bottomimgmedia{
+        display: flex;
+        width: 100%;
+        height: 428px;
+        margin-top: -50px;
+        margin-bottom: 42px;
+    }
+    /* sect4 */
+    .boxsection4{
+        width: 302px;
+        height: 982px;
+        margin-bottom: 36px;
+    }
+    .textboxsection4{
+        width: 302px;
+        height: 902px;
+        padding: 31px 0px 49px 0px;
+    }
+    .titlesection4{
+        width: 302px;
+        height: 80px;
+        font-size: 36px;
+        font-family: "MuseoSansCyrl500";
+        margin: 0px;
+    }
+    .moretext{
+        margin-top: 27px;
+    }
+    .Text1section4{
+        flex-direction: column;
+        width: 367px;
+        height: 400px;
+        align-items: center;
+        margin-bottom: 28px;
+    }
+    .text1box{
+        width: 260px;
+        height: 200px;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        margin: 0px;
+    }
+    .text2box{
+        width: 260px;
+        height: 172px;
+        max-height: 200px;
+        align-items: center;
+        text-align: center;
+        margin-top: 21px;
+    }
+    .textboxtext{
+        width: 257px;
+        height: 168px;
+        margin-top: 9px;
+        font-family: "GolosText-Regular";
+    }
+    .textboxtext span{
+        font-family: "GolosText-Medium";
+        font-weight: bold;
+    }
+    .text2boxtext{
+        width: 260px;
+        height: 140px;
+        margin-top: 9px;
+        font-family: "GolosText-Regular";
+    }
+    .text2boxtext span{
+        font-family: "GolosText-SemiBold";
+        font-weight: bold;
+    }
+    .Text2section4{
+        flex-direction: column;
+        width: 367px;
+        height: 370px;
+        align-items: center;
+        margin: 0px;
+    }
+    .text1box2{
+        width: 260px;
+        height: 110px;
+        margin-bottom: 29px;
+    }
+    .text1box2 p{
+        width: 260px;
+        height: 79px;
+        font-size: 18px;
+        margin-top: 9px;
+        font-family: "GolosText-Regular";
+    }
+    .text1box2 span{
+        font-size: 24px;
+        font-family: "GolosText-Medium";
+        font-weight: bold;
+    }
+    .text1box3{
+        width: 260px;
+        height: 86px;
+        margin-bottom: 29px;
+        margin: 0px 0px 29px 0px;
+    }   
+    .text1box3 p{
+        width: 260px;
+        height: 55px;
+        font-size: 18px;
+        margin-top: 9px;
+        font-family: "GolosText-Regular";
+    }
+    .text1box3 span{
+        font-size: 24px;
+        font-family: "GolosText-Medium";
+        font-weight: bold;
+    }
+    .text1box4{
+        width: 265px;
+        height: 116px;
+    }
+    .text1box4 p{
+        width: 265px;
+        height: 85px;
+        font-size: 18px;
+        margin-top: 9px;
+        font-family: "GolosText-Regular";
+    }
+    .text1box4 span{
+        font-size: 24px;
+        font-family: "GolosText-Medium";
+        font-weight: bold;
+    }
+    /* sect5 */
+    .back4{
+        background-image: none;
+        width: 360px;
+        margin-bottom: 35px;
+    }
+    .boxsection5{
+        width: 316px;
+        height: 1380px;
+        margin: auto;
+    }
+    .sect5Title{
+        width: 287px;
+        height: 160px;
+        text-align: start;
+        font-size: 36px;
+        line-height: 40px;
+        font-family: "MuseoSansCyrl500";
+        margin: 0%;
+        margin-bottom: 14px;
+    }
+    .sect5text{
+        width: 297px;
+        height: 300px;
+        text-align: start;
+        font-size: 20px;
+        font-family: "GolosText-Regular";
+        line-height: 30px;
+    }
+    .sect5text span{
+        font-family: "GolosText-Medium";
+        font-weight: bold;
+    }
+    .container_boxsect5{
+        margin-top: 28px;
+    }   
+    .container_boxsect5{
+        flex-direction: column;
+    }
+    .box5sec{
+        width: 301px;
+        height: 282px;
+        margin: auto;
+        margin-bottom: 18px;
+    }
+    .box5sec2{
+        width: 301px;
+        height: 282px;
+        margin: auto;
+        margin-bottom: 18px;
+    }
+    .box5sec3{
+        width: 301px;
+        height: 282px;
+        margin: auto;
+        margin-bottom: 18px;
+    }
+    .box5secbox{
+        padding: 44px 0px 44px 0px;
+    }
+    .box5secbox2{
+        padding: 43px 0px 43px 0px;
+    }
+    .box5secbox3{
+        padding: 45px 0px 43px 0px;
+    }
+    .box5secbold{
+        width: 315px;
+        height: 24px;
+        font-family: "GolosText-SemiBold";
+        font-size: 20px;
+        margin: 20px 0px 14px 0px;
+    }
+    .box5sectext1{
+        width: 266px;
+        height: 112px;
+        font-size: 16px;
+        font-family: "GolosText-Regular";
+        line-height: 28px;
+    }
+    .box5sectext2{
+        width: 249px;
+        height: 112px;
+        font-size: 16px;
+        font-family: "GolosText-Regular";
+        line-height: 28px;
+    }
+    .box5sectext3{
+        width: 259px;
+        height: 112px;
+        font-size: 16px;
+        font-family: "GolosText-Regular";
+        line-height: 28px;
+    }
+/* sect6 */
+    .back5{
+        width: 360px;
+        background-image: none;
+        margin-bottom: 55px;
+    }
+    .boxsection6{
+        width: 360px;
+        height: 2170px;
+    }
+    .Title6sec{
+        width: 294px;
+        height: 160px;
+        font-size: 36px;
+        font-family: "MuseoSansCyrl500";
+        margin-bottom: 14px;
+        line-height: 40px;
+    }
+    .text6sec{
+        width: 278px;
+        height: 180px;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: "GolosText-Regular";
+        margin-bottom: 28px;
+    }
+    .text6sec span{
+        font-family: "GolosText-SemiBold";
+        font-weight: bold;
+    }
+    .morcrug{
+        width: 360px;
+        flex-direction: column;
+    }
+    .crugimgsect6{
+        display: none;
+    }
+    .crugimgsect61{
+        display: flex;
+        width: 310px;
+        height: 320px;
+    }
+    .crugimgsect61 img{
+        width: 310px;
+        height: 320px;
+    }
+    .morcrug{
+        margin-top: 21px;
+        align-items: center;
+    }
+    .crugtitle{
+        font-family: "GolosText-SemiBold";
+    }
+    .crugtext{
+        font-family: "GolosText-Regular";
+    }
+    .crug2sec{
+        margin-top: 20px;
+    }
+    .morcrug2{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .crug3sec{
+        margin: 0px;
+    }
+    .crug4sec{
+        margin-top: 21px;
+    }
+    .crugtitle4{
+        font-size: 40px;
+        font-family: "GolosText-SemiBold";
+        line-height: 24px;
+        margin-bottom: 26px;
+    }
+    .crugtext4{
+        width: 302px;
+        height: 84px;
+        font-family: "GolosText-Regular";
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .fontextsec6{
+        font-family: "GolosText-SemiBold";
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .fontextsec6{
+        width: 175px;
+    }
+    .fot{
+        width: 360px;
+        height: 355px;
+        flex-direction: column;
+    }
+    .box1f{
+        margin: auto;
+        margin-top: 39px;
+        margin-bottom: 15px;
+    }
+    .box1ftitle{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "RussoOne-Regular";
+        letter-spacing: 3%;
+    }
+    .box2f{
+        align-items: center;
+        font-size: 15px;
+        font-family: "GolosText-Regular";
+        margin: 0px;
+        margin-bottom: 27px;
+    }
+    .box3f{
+        display: none;
+    }
+    .box3f2{
+        width: 237px;
+        height: 72px;
+        display: flex;
+        align-items: center;
+        margin: 0px;
+        margin-top: 34px;
+        font-size: 15px;
+        font-family: "GolosText-Medium";
+    }
+    .fotline2{
+        margin-top: 14px;
+    }
+    .box4f{
+        width: 169px;
+        height: 40px;
+        margin-right: 9px;
+    }
+    .box4ftitile{
+        font-size: 20px;
+        font-family: "GolosText-Medium";
+    }
+    .box4ftext{
+        font-size: 12px;
+        font-family: "GolosText-Regular";
+        text-align: start;
+    }
+    .box4f span{
+        font-weight: bold;
+        font-family: "GolosText-Medium";
+    }
+    .flex2{
+        width: 126px;
+        height: 40px;
+    }
+    .box4f-flex{
+        display: flex;
+        flex-direction: row;
+    }
+    .back7{
+        width: 360px;
+        height: 1250px;
+        background-image: none;
+    }
+    .txt-rab{
+        width: 360px;
+        padding-top: 0px;
+    }
+    .txt-rab h1{
+        margin: auto;
+        width: 277px;
+        height: 160px;
+        text-align: start;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .txt-rab .p1{
+        margin: auto;
+        margin-right: 80px;
+        margin-top: 25px;
+        text-align: start;
+        width: 238px;
+        height: 120px;
+    }
+    .txt-rab .p2{
+        text-align: start;
+        width: 273px;
+        height: 120px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .txt-rab .p3{
+        margin: auto;
+        text-align: start;
+        width: 273px;
+        height: 120px;
+    }
+    .ref{
+        flex-direction: column;
+    }
+    .pole input{
+        width: 284px;
+        height: 86px;
+    }
+    .pay2{
+        display: none;
+    }
+    .pay1{
+        display: flex;
+        width: 260px;
+        height: 269px;
+        margin: auto;
+        margin-top: 41px;
+        margin-bottom: 48px;
+    }
+    .text2rab h1{
+        width: 330px;
+        height: 160px;
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 14px;
+    }
+    .text2rab p{
+        font-size: 20px;
+        width: 270px;
+        height: 110px;
+    }
+    .pole input{
+        width: 284px;
+        height: 84px;
+        margin: auto;
+    }
+    .bottommore{
+        margin-bottom: 55px;
+    }
+}
+.show{
+    display: block;
+}
+.del{
+    display: none;
+}
+
+
